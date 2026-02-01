@@ -1,0 +1,300 @@
+{
+  "navbar": {
+    "brandName": "Perfect Agency",
+    "established": "EST — 2022",
+    "menuItems": [
+      {
+        "label": "Home",
+        "number": "(1)"
+      },
+      {
+        "label": "About",
+        "number": "(2)"
+      },
+      {
+        "label": "Services",
+        "number": "(3)"
+      },
+      {
+        "label": "Properties",
+        "number": "(4)"
+      },
+      {
+        "label": "Why-Us",
+        "number": "(5)"
+      },
+      {
+        "label": "Contact",
+        "number": "(6)"
+      }
+    ],
+    "contact": {
+      "title": "CONTACT",
+      "email": "hello@perfectagency.com",
+      "phone": "+1 (555) 123-4567"
+    },
+    "socials": {
+      "title": "SOCIALS",
+      "links": [
+        {
+          "name": "Instagram",
+          "url": "#"
+        },
+        {
+          "name": "Facebook",
+          "url": "#"
+        },
+        {
+          "name": "LinkedIn",
+          "url": "#"
+        }
+      ]
+    },
+    "office": {
+      "title": "OFFICE",
+      "address": "123 Design District,\nNew York, NY 10001",
+      "hours": "Monday to Friday: 9:00 AM - 6:00 PM"
+    }
+  },
+  "hero": {
+    "trustLine": [
+      "Verified Listings",
+      "Transparent Deals"
+    ],
+    "headline": [
+      "FIND",
+      "YOUR",
+      "DREAM",
+      "PROPERTY"
+    ],
+    "subtitle": "in Your City",
+    "cta": "Browse Properties",
+    "scrollText": "Scroll",
+    "backgroundImage": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?q=80&w=2070&auto=format&fit=crop"
+  },
+  "about": {
+    "label": "OUR APPROACH",
+    "heading": [
+      "from",
+      "vision",
+      "to",
+      "ownership"
+    ],
+    "description": "Perfect Agency is your trusted partner in land acquisition and real estate investment. We guide you through every step of the journey, from finding the perfect property to securing financing and completing the transaction.",
+    "cta": "Get Started",
+    "mainImage": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?q=80&w=2070&auto=format&fit=crop",
+    "detailImage": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=2070&auto=format&fit=crop",
+    "accordion": [
+      {
+        "title": "Your Complete Real Estate Partner",
+        "description": "We specialize in helping new investors and first-time buyers navigate the complex world of land acquisition. Our dedicated team handles everything in-house, ensuring a seamless experience from initial consultation to final ownership."
+      },
+      {
+        "title": "Property Discovery",
+        "description": "Access exclusive land listings and investment opportunities. We help you identify properties that match your vision, budget, and long-term goals, whether residential, commercial, or agricultural."
+      },
+      {
+        "title": "Financing Solutions",
+        "description": "Secure financing for large-scale investments with our expert guidance. We connect you with trusted lenders, help structure deals, and ensure you get the best rates and terms for your land purchase."
+      },
+      {
+        "title": "End-to-End Support",
+        "description": "From legal documentation and title verification to zoning approvals and registration, we manage every detail. Our comprehensive support ensures a stress-free transaction and peace of mind throughout the entire process."
+      }
+    ]
+  },
+  "services": {
+    "label": "Capabilities",
+    "heading": [
+      "EXPERT",
+      "SOLUTIONS"
+    ],
+    "items": [
+      {
+        "title": "Buying Assistance",
+        "description": "Expert guidance to help you find and purchase your perfect home or investment property."
+      },
+      {
+        "title": "Selling Support",
+        "description": "Strategic marketing and negotiation to get the best value for your property."
+      },
+      {
+        "title": "Rental Services",
+        "description": "Connecting tenants with quality homes and landlords with reliable occupants."
+      },
+      {
+        "title": "Legal Documentation",
+        "description": "Seamless handling of all paperwork, ensuring a stress-free and compliant transaction."
+      },
+      {
+        "title": "Loan Support",
+        "description": "Assistance in securing the best financing options tailored to your needs."
+      }
+    ]
+  },
+  "projects": {
+    "label": "Selected Works",
+    "heading": "Featured Projects",
+    "counter": "3 / 3",
+    "hero": {
+      "title": "Kinsei \n Pavilion",
+      "cta": "See Project",
+      "image": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=2500&auto=format&fit=crop"
+    },
+    "grid": [
+      {
+        "title": "Oda House",
+        "cta": "View Project →",
+        "image": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?q=80&w=1974&auto=format&fit=crop"
+      },
+      {
+        "title": "Kaza Villa",
+        "cta": "View Project →",
+        "image": "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?q=80&w=2070&auto=format&fit=crop"
+      }
+    ]
+  },
+  "properties": {
+    "label": "Curated Selection",
+    "heading": [
+      "EXCLUSIVE",
+      "PROPERTIES"
+    ],
+    "cta": "View All Listings",
+    "items": [
+      {
+        "id": 1,
+        "title": "Luxury Villa in Suburbs",
+        "price": "$1,250,000",
+        "location": "Beverly Hills, CA",
+        "type": "Villa",
+        "image": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?q=80&w=2071&auto=format&fit=crop"
+      },
+      {
+        "id": 2,
+        "title": "Modern City Apartment",
+        "price": "$850,000",
+        "location": "Downtown, NY",
+        "type": "Apartment",
+        "image": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=2070&auto=format&fit=crop"
+      },
+      {
+        "id": 3,
+        "title": "Seaside Retreat",
+        "price": "$2,500,000",
+        "location": "Malibu, CA",
+        "type": "Estate",
+        "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=2070&auto=format&fit=crop"
+      }
+    ]
+  },
+  "whyUs": {
+    "label": "Why Choose Us",
+    "heading": [
+      "THE PERFECT",
+      "ADVANTAGE"
+    ],
+    "quote": {
+      "text": "\"Excellence is not an act, but a habit.\"",
+      "author": "— Our Promise"
+    },
+    "image": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?q=80&w=2070&auto=format&fit=crop",
+    "benefits": [
+      {
+        "title": "Verified Listings",
+        "description": "Every property is personally vetted to ensure authenticity and legal compliance."
+      },
+      {
+        "title": "Transparent Pricing",
+        "description": "No hidden fees or surprise charges. We believe in complete financial clarity."
+      },
+      {
+        "title": "Dedicated Support",
+        "description": "A personal agent guides you through every step of the buying or selling process."
+      },
+      {
+        "title": "Quick Response",
+        "description": "We value your time. Our team guarantees a response within 2 hours."
+      }
+    ]
+  },
+  "philosophy": {
+    "label": "Philosophy",
+    "heading": "Designs That\nSustain Life",
+    "description": "Perfect Agency is committed to revolutionizing real estate through sustainability. Each of our projects embodies our dedication to environmental stewardship, leveraging innovative technologies and green practices that set new standards for the industry.",
+    "features": [
+      {
+        "title": "Sustainable Innovation",
+        "description": "Harmonizing modern technology with nature's wisdom to build resilience."
+      },
+      {
+        "title": "Cultural Resonance",
+        "description": "Designs that respect heritage while boldly stepping into the future."
+      }
+    ],
+    "mainImage": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?q=80&w=2070&auto=format&fit=crop",
+    "overlayText": "We embrace the spirit of cherishing each encounter, recognizing that each project presents a unique opportunity to create something exceptional."
+  },
+  "story": {
+    "heading": "Every Line\nTells a Story",
+    "description": "In every project at Perfect Agency, the essence of tradition is evident. By integrating disciplined aesthetics and thoughtful methodologies, we ensure that each structure is not only environmentally attuned but also rich in cultural significance.",
+    "cta": "About Us",
+    "projects": [
+      {
+        "title": "Shizuka Gardens",
+        "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop"
+      },
+      {
+        "title": "Kawa Lofts",
+        "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=2053&auto=format&fit=crop"
+      },
+      {
+        "title": "Kinsei Pavilion",
+        "image": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=2070&auto=format&fit=crop"
+      }
+    ]
+  },
+  "vision": {
+    "label": "Connect",
+    "heading": [
+      "CRAFT",
+      "YOUR",
+      "VISION"
+    ],
+    "description": "Perfect Agency blends innovation and sustainability to craft spaces that stand out and stand for something. Let's bring your vision to life with thoughtful, modern design.",
+    "cta": "Get in Touch",
+    "mainImage": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop",
+    "detailImage": "https://images.unsplash.com/photo-1600607687644-c7171b42498b?q=80&w=2070&auto=format&fit=crop"
+  },
+  "footer": {
+    "heading": "Let's Start a\nConversation",
+    "description": "Whether you're buying, selling, or just curious about the market, we're here to help.",
+    "contact": {
+      "phone": {
+        "label": "Call Us",
+        "value": "+1 (555) 123-4567",
+        "link": "tel:+15551234567"
+      },
+      "email": {
+        "label": "Email",
+        "value": "hello@perfectagency.com",
+        "link": "mailto:hello@perfectagency.com"
+      },
+      "address": {
+        "label": "Visit Us",
+        "value": "123 Design District\nNew York, NY"
+      }
+    },
+    "copyright": "Perfect Agency. All Rights Reserved.",
+    "links": [
+      {
+        "name": "Privacy Policy",
+        "url": "#"
+      },
+      {
+        "name": "Terms of Service",
+        "url": "#"
+      }
+    ]
+  }
+}
