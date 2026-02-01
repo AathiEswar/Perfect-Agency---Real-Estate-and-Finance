@@ -1,73 +1,87 @@
-# React + TypeScript + Vite
+# Perfect Agency — Premium Real Estate & Land Acquisition
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-end, cinematic web experience for **Perfect Agency**, a modern real estate business specializing in land acquisition, financing assistance, and end-to-end investment support.
 
-Currently, two official plugins are available:
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer-Motion-black?style=for-the-badge&logo=framer)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Cinematic Parallax Zoom**: Advanced scroll-based zoom and transform effects on architectural imagery for a premium feel.
+- **Modern Interactive Accordion**: A custom-built, animated "About" section designed to showcase the complete ownership journey.
+- **Fully Responsive**: Intelligent font scaling and layout adjustments for seamless browsing on mobile, tablet, and desktop.
+- **Smooth Scroll**: Integrated **Lenis Scroll** for a fluid, high-end navigation experience.
+- **Centralized Content**: All website text, image URLs, and data are managed through a single `content.json` file for effortless updates.
+- **Dynamic Animations**: Character-by-character text reveals and viewport-synchronized section entries.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🛠️ Tech Stack
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- **Framework**: [React 19](https://reactjs.org/)
+- **Build Tool**: [Vite](https://vitejs.dev/)
+- **Styling**: [Tailwind CSS v3](https://tailwindcss.com/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Smooth Scrolling**: [Lenis](https://lenis.darkroom.engineering/)
+- **Icons**: [React Icons](https://react-icons.github.io/react-icons/)
+- **Type Safety**: [TypeScript](https://www.typescriptlang.org/)
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 📦 Getting Started
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Prerequisites
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- Node.js (Latest LTS recommended)
+- npm or yarn
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### Installation
+
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Build for production:
+   ```bash
+   npm run build
+   ```
+
+---
+
+## 📝 Content Management
+
+To update any text or image on the website, simply edit the file:
+`src/data/content.json`
+
+No code changes are required for content updates. The structure is organized by section:
+- `navbar`: Brand details and links
+- `hero`: Headline words and background image
+- `about`: Accordion titles and descriptions
+- `projects/properties`: List of selective works and listings
+- `footer`: Contact info and social links
+
+---
+
+## 🎨 Aesthetic Guidelines
+
+- **Typography**: Focused on serif elegance for headings and clean sans-serif for body text.
+- **Color Palette**: Custom `saisei-beige` backgrounds with `saisei-dark` accents to maintain a minimalist, luxury atmosphere.
+- **Motion**: Every interaction uses high-precision cubic-bezier curves `[0.76, 0, 0.24, 1]` to ensure a "weighted" and premium feel.
+
+---
+
+## ⚖️ License
+
+Private / Confidential. Built for Perfect Agency.
