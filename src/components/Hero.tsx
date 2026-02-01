@@ -132,16 +132,22 @@ const Hero: React.FC = () => {
         </div>
 
         {/* CTA with Fade */}
-        <motion.button
+        <motion.a
+          href="#contact"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 1.3, ease: [0.76, 0, 0.24, 1] as any }}
-          whileHover={{ scale: 1.05, transition: { duration: 0.3 } }}
+          whileHover={{
+            scale: 1.05,
+            backgroundColor: "#8C7B6C",
+            color: "#FFFFFF",
+            transition: { duration: 0.3 }
+          }}
           whileTap={{ scale: 0.95 }}
-          className="px-10 py-4 border border-saisei-beige/50 text-xs md:text-sm tracking-[0.25em] uppercase hover:bg-saisei-beige hover:text-saisei-dark transition-all duration-500"
+          className="px-12 py-5 bg-saisei-beige text-saisei-dark text-xs md:text-sm font-bold tracking-[0.3em] uppercase transition-all duration-500 cursor-pointer shadow-[0_20px_50px_rgba(0,0,0,0.3)]"
         >
           {hero.cta}
-        </motion.button>
+        </motion.a>
       </div>
 
       {/* Scroll Indicator */}

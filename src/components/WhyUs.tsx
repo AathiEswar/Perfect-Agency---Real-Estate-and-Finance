@@ -8,6 +8,14 @@ const WhyUs: React.FC = () => {
   const { whyUs } = content;
   const sectionRef = useRef(null);
   const imageRef = useRef(null);
+  const [isMobile, setIsMobile] = React.useState(false);
+
+  React.useEffect(() => {
+    const checkMobile = () => setIsMobile(window.innerWidth < 1024);
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
 
   const { scrollYProgress: imageProgress } = useScroll({
     target: imageRef,
@@ -44,7 +52,7 @@ const WhyUs: React.FC = () => {
         <motion.div
           ref={imageRef}
           className="relative h-[50vh] md:h-[60vh] overflow-hidden"
-          style={{ y: imageY }}
+          style={{ y: isMobile ? 0 : imageY }}
           variants={{
             hidden: { opacity: 0, scale: 0.95 },
             visible: {
@@ -58,7 +66,7 @@ const WhyUs: React.FC = () => {
             src={whyUs.image}
             alt="Modern Architecture Detail"
             className="w-full h-full object-cover grayscale opacity-80"
-            style={{ scale: imageScale }}
+            style={{ scale: isMobile ? 1 : imageScale }}
             loading="lazy"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-saisei-dark via-transparent to-transparent"></div>

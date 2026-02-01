@@ -32,10 +32,10 @@ const Navbar: React.FC = () => {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.8, delay: 0.6 }}
         onClick={() => setIsOpen(!isOpen)}
-        className="text-2xl hover:opacity-70 transition-opacity duration-300"
+        className="w-12 h-12 md:w-14 md:h-14 flex items-center justify-center bg-saisei-beige text-saisei-dark rounded-full hover:scale-110 active:scale-95 transition-all duration-300 shadow-lg"
         aria-label="Menu"
       >
-        <HiMenuAlt4 />
+        <HiMenuAlt4 className="text-xl md:text-2xl" />
       </motion.button>
 
       <AnimatePresence>
@@ -51,10 +51,10 @@ const Navbar: React.FC = () => {
               <div className="flex justify-end mb-16">
                 <button
                   onClick={() => setIsOpen(false)}
-                  className="text-2xl hover:opacity-70 transition-opacity"
+                  className="w-12 h-12 flex items-center justify-center bg-saisei-beige text-saisei-dark rounded-full hover:scale-110 active:scale-95 transition-all duration-300 shadow-lg"
                   aria-label="Close menu"
                 >
-                  <HiX />
+                  <HiX className="text-2xl" />
                 </button>
               </div>
 
