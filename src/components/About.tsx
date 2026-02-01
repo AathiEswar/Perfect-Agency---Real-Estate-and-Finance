@@ -32,7 +32,7 @@ const About: React.FC = () => {
           transition={{ duration: 0.8 }}
           className="mb-16 md:mb-24"
         >
-          <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-serif leading-tight opacity-40 tracking-tight">
+          <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-serif leading-tight opacity-80 tracking-tight">
             {about.heading.join(' ')}
           </h2>
         </motion.div>
@@ -48,16 +48,16 @@ const About: React.FC = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1, duration: 0.6 }}
-                className="border-b border-saisei-dark/10"
+                className="border-b border-saisei-dark/20"
               >
                 <button
                   onClick={() => toggleAccordion(index)}
                   className="w-full py-6 md:py-8 flex justify-between items-start text-left group"
                 >
-                  <span className={`text-xl md:text-2xl lg:text-3xl font-serif transition-opacity duration-300 ${openIndex === index ? 'opacity-100' : 'opacity-60 group-hover:opacity-80'}`}>
+                  <span className={`text-xl md:text-2xl lg:text-3xl font-serif transition-opacity duration-300 ${openIndex === index ? 'opacity-100' : 'opacity-80 group-hover:opacity-100'}`}>
                     {item.title}
                   </span>
-                  <span className="ml-4 opacity-40 group-hover:opacity-100 transition-opacity">
+                  <span className="ml-4 opacity-70 group-hover:opacity-100 transition-opacity">
                     {openIndex === index ? <MdRemove className="text-2xl" /> : <MdAdd className="text-2xl" />}
                   </span>
                 </button>
@@ -71,7 +71,7 @@ const About: React.FC = () => {
                       transition={{ duration: 0.4, ease: [0.76, 0, 0.24, 1] }}
                       className="overflow-hidden"
                     >
-                      <p className="pb-8 text-sm md:text-base leading-relaxed opacity-60 max-w-xl font-light">
+                      <p className="pb-8 text-sm md:text-base leading-relaxed opacity-90 max-w-xl font-light">
                         {item.description}
                       </p>
                     </motion.div>

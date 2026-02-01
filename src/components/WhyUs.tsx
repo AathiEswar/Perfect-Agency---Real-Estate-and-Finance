@@ -57,7 +57,7 @@ const WhyUs: React.FC = () => {
           <motion.img
             src={whyUs.image}
             alt="Modern Architecture Detail"
-            className="w-full h-full object-cover grayscale opacity-60"
+            className="w-full h-full object-cover grayscale opacity-80"
             style={{ scale: imageScale }}
             loading="lazy"
           />
@@ -77,7 +77,7 @@ const WhyUs: React.FC = () => {
             <p className="text-2xl sm:text-3xl font-serif leading-tight mb-4">
               {whyUs.quote.text}
             </p>
-            <p className="text-sm opacity-60 tracking-widest uppercase">{whyUs.quote.author}</p>
+            <p className="text-sm opacity-90 tracking-widest uppercase">{whyUs.quote.author}</p>
           </motion.div>
         </motion.div>
 
@@ -88,7 +88,7 @@ const WhyUs: React.FC = () => {
               variants={{
                 hidden: { opacity: 0, y: 20 },
                 visible: {
-                  opacity: 0.5,
+                  opacity: 0.9,
                   y: 0,
                   transition: { duration: 0.6 }
                 }
@@ -135,13 +135,13 @@ const WhyUs: React.FC = () => {
                 <motion.div
                   whileHover={{ scale: 1.1, rotate: 5 }}
                   transition={{ duration: 0.3 }}
-                  className="w-12 h-12 flex-shrink-0 border border-white/10 flex items-center justify-center text-saisei-brown group-hover:border-saisei-brown group-hover:text-white transition-colors duration-300"
+                  className="w-12 h-12 flex-shrink-0 border border-white/20 flex items-center justify-center text-saisei-brown group-hover:border-saisei-brown group-hover:text-white transition-colors duration-300"
                 >
                   {icons[index]}
                 </motion.div>
                 <div>
                   <h4 className="text-xl font-serif mb-2">{benefit.title}</h4>
-                  <p className="text-sm opacity-60 leading-relaxed max-w-sm">
+                  <p className="text-sm opacity-90 leading-relaxed max-w-sm">
                     {benefit.description}
                   </p>
                 </div>

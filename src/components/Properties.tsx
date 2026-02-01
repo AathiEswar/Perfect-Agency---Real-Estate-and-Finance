@@ -36,7 +36,7 @@ const Properties: React.FC = () => {
               variants={{
                 hidden: { opacity: 0, y: 20 },
                 visible: {
-                  opacity: 0.5,
+                  opacity: 0.8,
                   y: 0,
                   transition: { duration: 0.6 }
                 }
@@ -79,7 +79,7 @@ const Properties: React.FC = () => {
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="px-10 py-4 border border-saisei-dark/20 text-[10px] tracking-[0.3em] uppercase hover:bg-saisei-dark hover:text-saisei-beige transition-all duration-500"
+              className="px-10 py-4 border border-saisei-dark/40 text-[10px] tracking-[0.3em] uppercase hover:bg-saisei-dark hover:text-saisei-beige transition-all duration-500"
             >
               {properties.cta}
             </motion.button>
@@ -131,14 +131,14 @@ const Properties: React.FC = () => {
 
               <div className="flex justify-between items-start mb-2">
                 <h3 className="text-xl sm:text-2xl font-serif group-hover:text-saisei-brown transition-colors duration-300">{property.title}</h3>
-                <span className="text-lg font-light opacity-80">{property.price}</span>
+                <span className="text-lg font-light opacity-100">{property.price}</span>
               </div>
 
-              <p className="text-sm opacity-50 mb-6">{property.location}</p>
+              <p className="text-sm opacity-80 mb-6">{property.location}</p>
 
               <motion.button
                 whileHover={{ x: 5 }}
-                className="w-full py-4 border-t border-saisei-dark/10 text-xs tracking-[0.2em] uppercase hover:text-saisei-brown transition-colors text-left flex justify-between items-center group/btn"
+                className="w-full py-4 border-t border-saisei-dark/20 text-xs tracking-[0.2em] uppercase hover:text-saisei-brown transition-colors text-left flex justify-between items-center group/btn"
               >
                 <span>Enquire Now</span>
                 <span className="transform group-hover/btn:translate-x-2 transition-transform">→</span>

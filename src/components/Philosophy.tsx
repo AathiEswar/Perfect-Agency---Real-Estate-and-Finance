@@ -29,11 +29,11 @@ const Philosophy: React.FC = () => {
             className="space-y-6 md:space-y-8"
           >
             <div>
-              <span className="text-xs tracking-[0.2em] uppercase opacity-50 block mb-4">{philosophy.label}</span>
+              <span className="text-xs tracking-[0.2em] uppercase opacity-80 block mb-4">{philosophy.label}</span>
               <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-serif leading-tight mb-8" dangerouslySetInnerHTML={{ __html: philosophy.heading.replace(/\n/g, '<br />') }} />
             </div>
 
-            <p className="text-base md:text-lg leading-relaxed opacity-80">
+            <p className="text-base md:text-lg leading-relaxed opacity-100">
               {philosophy.description}
             </p>
 
@@ -41,7 +41,7 @@ const Philosophy: React.FC = () => {
               {philosophy.features.map((feature, index) => (
                 <div key={index}>
                   <h4 className="text-xl font-serif mb-3">{feature.title}</h4>
-                  <p className="text-sm opacity-60 leading-relaxed">
+                  <p className="text-sm opacity-90 leading-relaxed">
                     {feature.description}
                   </p>
                 </div>

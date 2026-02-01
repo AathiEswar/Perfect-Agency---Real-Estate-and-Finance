@@ -57,7 +57,7 @@ const Vision: React.FC = () => {
         {/* Left Column - Text Content */}
         <div className="z-10 space-y-6 md:space-y-8">
           <motion.div variants={itemVariants} className="space-y-2">
-            <span className="block text-xs md:text-sm tracking-[0.3em] uppercase opacity-60 font-light">
+            <span className="block text-xs md:text-sm tracking-[0.3em] uppercase opacity-90 font-light">
               {vision.label}
             </span>
           </motion.div>
@@ -74,7 +74,7 @@ const Vision: React.FC = () => {
           </div>
 
           <motion.div variants={itemVariants} className="space-y-6 max-w-md">
-            <p className="text-sm md:text-base leading-relaxed opacity-70">
+            <p className="text-sm md:text-base leading-relaxed opacity-100">
               {vision.description}
             </p>
 

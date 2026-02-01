@@ -75,10 +75,10 @@
   "about": {
     "label": "OUR APPROACH",
     "heading": [
-      "from",
-      "vision",
-      "to",
-      "ownership"
+      "FROM",
+      "VISION",
+      "TO",
+      "OWNERSHIP"
     ],
     "description": "Perfect Agency is your trusted partner in land acquisition and real estate investment. We guide you through every step of the journey, from finding the perfect property to securing financing and completing the transaction.",
     "cta": "Get Started",
@@ -272,29 +272,21 @@
     "contact": {
       "phone": {
         "label": "Call Us",
-        "value": "+1 (555) 123-4567",
-        "link": "tel:+15551234567"
+        "value": "+91 7299003729",
+        "link": "tel:+917299003729"
       },
       "email": {
         "label": "Email",
-        "value": "hello@perfectagency.com",
-        "link": "mailto:hello@perfectagency.com"
+        "value": "sivaftc@gmail.com",
+        "link": "mailto:sivaftc@gmail.com"
       },
-      "address": {
-        "label": "Visit Us",
-        "value": "123 Design District\nNew York, NY"
+      "whatsapp": {
+        "label": "WhatsApp",
+        "value": "+91 7299003729",
+        "link": "https://wa.me/917299003729"
       }
     },
     "copyright": "Perfect Agency. All Rights Reserved.",
-    "links": [
-      {
-        "name": "Privacy Policy",
-        "url": "#"
-      },
-      {
-        "name": "Terms of Service",
-        "url": "#"
-      }
-    ]
+    "links": []
   }
 }

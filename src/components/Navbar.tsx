@@ -69,7 +69,7 @@ const Navbar: React.FC = () => {
                     className="group flex items-baseline gap-4 text-4xl md:text-5xl lg:text-6xl font-serif hover:text-saisei-brown transition-colors duration-300"
                     onClick={() => setIsOpen(false)}
                   >
-                    <span className="text-xs opacity-50 group-hover:opacity-100 transition-opacity">{item.number}</span>
+                    <span className="text-xs opacity-70 group-hover:opacity-100 transition-opacity">{item.number}</span>
                     <span>{item.label}</span>
                   </motion.a>
                 ))}
@@ -82,7 +82,7 @@ const Navbar: React.FC = () => {
                 className="space-y-8 border-t border-white/10 pt-8"
               >
                 <div>
-                  <p className="text-xs tracking-widest opacity-40 mb-3">{navbar.contact.title}</p>
+                  <p className="text-xs tracking-widest opacity-80 mb-3">{navbar.contact.title}</p>
                   <a href={`mailto:${navbar.contact.email}`} className="text-sm hover:text-saisei-brown transition-colors">
                     {navbar.contact.email}
                   </a>
@@ -90,7 +90,7 @@ const Navbar: React.FC = () => {
                 </div>
 
                 <div>
-                  <p className="text-xs tracking-widest opacity-40 mb-3">{navbar.socials.title}</p>
+                  <p className="text-xs tracking-widest opacity-80 mb-3">{navbar.socials.title}</p>
                   <div className="flex gap-4 text-sm">
                     {navbar.socials.links.map((link, index) => (
                       <a key={index} href={link.url} className="hover:text-saisei-brown transition-colors">{link.name}</a>
@@ -99,9 +99,9 @@ const Navbar: React.FC = () => {
                 </div>
 
                 <div>
-                  <p className="text-xs tracking-widest opacity-40 mb-3">{navbar.office.title}</p>
-                  <p className="text-sm opacity-70" dangerouslySetInnerHTML={{ __html: navbar.office.address.replace(/\n/g, '<br />') }} />
-                  <p className="text-xs opacity-50 mt-2">{navbar.office.hours}</p>
+                  <p className="text-xs tracking-widest opacity-80 mb-3">{navbar.office.title}</p>
+                  <p className="text-sm opacity-90" dangerouslySetInnerHTML={{ __html: navbar.office.address.replace(/\n/g, '<br />') }} />
+                  <p className="text-xs opacity-70 mt-2">{navbar.office.hours}</p>
                 </div>
               </motion.div>
             </div>

@@ -55,10 +55,10 @@ const Story: React.FC = () => {
             }}
             className="max-w-lg"
           >
-            <p className="text-sm md:text-base leading-relaxed opacity-70">
+            <p className="text-sm md:text-base leading-relaxed opacity-100">
               {story.description}
             </p>
-            <button className="mt-6 text-xs tracking-[0.2em] uppercase opacity-60 hover:opacity-100 transition-opacity underline underline-offset-4">
+            <button className="mt-6 text-xs tracking-[0.2em] uppercase opacity-80 hover:opacity-100 transition-opacity underline underline-offset-4">
               {story.cta}
             </button>
           </motion.div>

@@ -44,7 +44,7 @@ const Services: React.FC = () => {
             variants={{
               hidden: { opacity: 0, y: 20 },
               visible: {
-                opacity: 0.5,
+                opacity: 0.9,
                 y: 0,
                 transition: { duration: 0.6 }
               }
@@ -101,7 +101,7 @@ const Services: React.FC = () => {
                 y: -10,
                 transition: { duration: 0.3 }
               }}
-              className="group p-6 md:p-8 border border-white/5 bg-white/5 hover:bg-white/10 transition-colors duration-500"
+              className="group p-6 md:p-8 border border-white/10 bg-white/10 hover:bg-white/20 transition-colors duration-500"
             >
               <motion.div
                 className="mb-6 flex justify-center text-saisei-brown"
@@ -113,14 +113,14 @@ const Services: React.FC = () => {
               <h3 className="text-lg md:text-xl font-serif mb-3 md:mb-4 group-hover:text-saisei-brown transition-colors duration-300">
                 {service.title}
               </h3>
-              <p className="text-sm leading-relaxed opacity-60">
+              <p className="text-sm leading-relaxed opacity-90">
                 {service.description}
               </p>
             </motion.div>
           ))}
         </motion.div>
-      </motion.div>
-    </section>
+      </motion.div >
+    </section >
   );
 };
 

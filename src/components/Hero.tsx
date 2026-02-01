@@ -72,7 +72,7 @@ const Hero: React.FC = () => {
         <div className="flex items-center gap-4 text-xs md:text-sm tracking-[0.3em] uppercase mb-12 overflow-hidden">
           <motion.span
             initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 0.8, y: 0 }}
+            animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.5 }}
           >
             {hero.trustLine[0]}
@@ -85,7 +85,7 @@ const Hero: React.FC = () => {
           />
           <motion.span
             initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 0.8, y: 0 }}
+            animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.6 }}
           >
             {hero.trustLine[1]}
@@ -122,7 +122,7 @@ const Hero: React.FC = () => {
           <div className="overflow-visible mt-4">
             <motion.p
               initial={{ y: "40%", opacity: 0 }}
-              animate={{ y: 0, opacity: 0.6 }}
+              animate={{ y: 0, opacity: 0.9 }}
               transition={{ duration: 0.8, delay: 1, ease: [0.76, 0, 0.24, 1] as any }}
               className="text-sm md:text-base tracking-[0.2em] uppercase"
             >
@@ -138,7 +138,7 @@ const Hero: React.FC = () => {
           transition={{ duration: 0.8, delay: 1.3, ease: [0.76, 0, 0.24, 1] as any }}
           whileHover={{ scale: 1.05, transition: { duration: 0.3 } }}
           whileTap={{ scale: 0.95 }}
-          className="px-10 py-4 border border-saisei-beige/30 text-xs md:text-sm tracking-[0.25em] uppercase hover:bg-saisei-beige hover:text-saisei-dark transition-all duration-500"
+          className="px-10 py-4 border border-saisei-beige/50 text-xs md:text-sm tracking-[0.25em] uppercase hover:bg-saisei-beige hover:text-saisei-dark transition-all duration-500"
         >
           {hero.cta}
         </motion.button>
@@ -149,13 +149,13 @@ const Hero: React.FC = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.8, duration: 1.2 }}
-        className="absolute bottom-12 left-1/2 -translate-x-1/2 flex flex-col items-center gap-3 text-[10px] opacity-40 z-20 tracking-[0.3em] uppercase"
+        className="absolute bottom-12 left-1/2 -translate-x-1/2 flex flex-col items-center gap-3 text-[10px] opacity-80 z-20 tracking-[0.3em] uppercase"
       >
         <span>{hero.scrollText}</span>
         <motion.div
           animate={{ height: [0, 48, 0] }}
           transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
-          className="w-[1px] bg-saisei-beige/50"
+          className="w-[1px] bg-saisei-beige/80"
         />
       </motion.div>
     </section>
